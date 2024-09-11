@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16rem;
+ }
+ 
+
+
+.div {
+    color: blue;
+    box-sizing: border-box;
+    size-adjust: 50px;
+}
+
+.blue {
+    color: blue
+}
+
+.red{
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green{
+    color: green;
+}
+
+.google {
+    font-size: 8rem;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
