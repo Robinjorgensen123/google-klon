@@ -1,21 +1,16 @@
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-size: 16rem;
- }
- 
+    text-align: center;
+    font-size: 8rem;
 
-
-.div {
-    color: blue;
-    box-sizing: border-box;
-    size-adjust: 50px;
 }
 
+
 .blue {
-    color: blue
+    color: blue;
 }
 
 .red{
@@ -30,13 +25,11 @@
     color: green;
 }
 
-.google {
-    font-size: 8rem;
-    text-align: center;
-}
-body {
+.button-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    font: size 8px;
+    margin: 1 10px;
 }
